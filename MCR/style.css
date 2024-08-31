@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #01030f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0b1463;
+    color: #fff;
+}
+
+td input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+td input[type="text"]:focus {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.section-heading {
+    background-color: #a7fff3;
+    font-weight: bold;
+    text-align: left;
+}
+
+.faded {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.faded input {
+    background-color: #e0e0e0; /* Lighter gray for inputs */
+    color: #666; /* Faded text color */
+    pointer-events: none; /* Disable editing */
+}
+
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 239, 96);
+    display: flex;
+}
+
+label {
+    display: block;
+    margin: 10px 0px 5px;
+}
+
+#clientName, #generatedBy{
+    width: 100%;
+    padding: 10px 100%;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #020522;
+    border-radius: 5px;
+}
+
+.month{
+    margin-top: 15px;
+    border: none;
+    background-color: #020522;
+    color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0px 0px 10px #aaa;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.month:hover {
+    background-color: #f5f5f7;         /* Light background on hover */
+    color: #1e1e2f;                    /* Dark text on hover */
+    border-color: #f5f5f7;             /* Matching border color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow */
+}
+
+.month:active {
+    transform: scale(0.98);            /* Button shrink effect on click */
+}
+.Enter{
+    margin-top: 15px;
+    border: none;
+    background-color: #0e0e0e;
+    color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    width: 75px;
+    box-shadow:0px 0px 10px #aaa;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.Enter:hover {
+    background-color: #e2e2e2;         /* Light background on hover */
+    color: #1e1e2f;                    /* Dark text on hover */
+    border-color: #000000;             /* Matching border color on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow */
+}
+
+.Enter:active {
+    transform: scale(0.75);            /* Button shrink effect on click */
+}
